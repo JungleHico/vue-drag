@@ -1,24 +1,3 @@
-# vue-drag
+# Vue 自定义元素拖拽指令
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+对需要拖拽的元素使用 `v-drag` 指令，该指令兼容移动端，注意元素定位需要改成 `absolute` 或 `fixed`。
